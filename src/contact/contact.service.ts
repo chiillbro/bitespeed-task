@@ -93,7 +93,7 @@ export class ContactService {
   private buildResponse(primaryContact: Contact) {
     return {
       contact: {
-        primaryContatctId: primaryContact.id,
+        primaryContactId: primaryContact.id,
         emails: [primaryContact.email].filter(Boolean),
         phoneNumbers: [primaryContact.phoneNumber].filter(Boolean),
         secondaryContactIds: [],
@@ -120,7 +120,7 @@ export class ContactService {
 
     return {
       contact: {
-        primaryContatctId: primaryContact.id,
+        primaryContactId: primaryContact.id,
         emails,
         phoneNumbers,
         secondaryContactIds,
