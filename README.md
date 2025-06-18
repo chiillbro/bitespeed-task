@@ -6,12 +6,12 @@ This repository contains the solution for the BiteSpeed Backend Developer assign
 
 The `/identify` endpoint is hosted on Render and is available at:
 
-**`https://your-service-name.onrender.com/identify`**
+**`https://bitespeed-task-lqtl.onrender.com`**
 
 ### Example Usage (`curl`)
 
 ```bash
-curl -X POST https://your-service-name.onrender.com/identify \
+curl -X POST https://bitespeed-task-lqtl.onrender.com/identify \
 -H "Content-Type: application/json" \
 -d '{
   "email": "mcfly@bitespeed.com",
